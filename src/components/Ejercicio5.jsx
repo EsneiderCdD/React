@@ -9,12 +9,19 @@ function Ejercicio5 () {
             setCount (count + 1);
         }
     };
+    {/* const incrementar = () => count < 10 ? setCount(count + 1) : null; */}
+    
+    
+  
 
     const decrementar = () => { 
         if (count > 0) {
             setCount (count - 1);
         }
-    }
+    };
+
+    {/* const decrementar = () => count > 0 ? setCount(count - 1) : null; */}
+
 
     return (
         <div>
