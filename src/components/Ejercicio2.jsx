@@ -14,6 +14,22 @@ function AlternarOnOff () {
     return ( 
         <div>
             <p>Estado: {estado} </p>
+            <button 
+                 onClick={() => setEstado (estado === "OFF" ? "ON" : "OFF" ) } 
+                 style={{
+                 backgroundColor: estado === "OFF" ? "red" : "green",
+                 color: "white",
+                 padding: "10px 20px",
+                 fontSize: "16px",
+                 border: "note",
+                 borderRadius: "5px",
+                 cursor: "pointer",
+                }}
+                >
+            
+           
+            
+            Alternar </button>
         </div>
     );
 }
