@@ -1,7 +1,5 @@
 import './App.css'
-import BuscadorNombres from './components/useEffect/buscadorNombres'
-import CambiarTitulo from './components/useEffect/cambiarTitulo'
-import DetectarTamañoVentana from './components/useEffect/DetectarTamañoVentana'
+import Formulario from './components/Formularios/Formulario'
 
 function App() {
  
@@ -9,12 +7,7 @@ function App() {
   return (
     <>
 
-    <CambiarTitulo />
-
-    <BuscadorNombres />
-
-    <DetectarTamañoVentana />
-
+    <Formulario />
 
 
 
