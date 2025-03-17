@@ -1,18 +1,14 @@
 import './App.css'
-import Formulario from './components/Formularios/Formulario'
-import SimulacionCarga from './components/EfectosAsincronia/SimulacionCarga'
-import FetchPost from './components/APIs/FetchPost'
+import ToDoList from './components/PruebaTecnica/ToDoList'
+
 function App() {
  
 
   return (
     <>
+    
 
-    <Formulario />
-    <SimulacionCarga></SimulacionCarga>
-    <FetchPost></FetchPost>
-
-
+    <ToDoList />
 
 
     </>
