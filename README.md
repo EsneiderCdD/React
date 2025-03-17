@@ -1,13 +1,4 @@
-Ejercicios Detallados
-1️⃣ "Lista de Tareas" (To-Do List) Simplificada
-📌 Objetivo: Crear una lista donde puedas agregar y eliminar tareas de manera sencilla.
 
-✅ Requisitos:
-
-Un input para escribir la tarea y un botón para agregarla a la lista.
-Mostrar las tareas en una lista con opción de eliminarlas individualmente.
-Si la lista está vacía, mostrar un mensaje tipo "No hay tareas pendientes".
-🔗 Temas involucrados: useState, eventos (onChange, onClick), listas y keys, renderizado condicional.
 
 2️⃣ "Buscador de Usuarios"
 📌 Objetivo: Implementar un campo de búsqueda que filtre dinámicamente una lista de usuarios.
@@ -119,20 +110,6 @@ Usar useCallback para evitar que funciones cambien innecesariamente.
 
 
 Descripciones Detalladas de los 10 Ejercicios Prácticos
-1. Gestor de tareas con filtrado y ordenamiento
-
-Descripción: Crear una aplicación de gestión de tareas que permita añadir nuevas tareas con título, descripción, estado (pendiente, en progreso, completada) y fecha.
-Funcionalidades:
-
-Formulario para añadir tareas
-Lista de tareas que se actualiza dinámicamente
-Filtrado por estado usando botones o select
-Ordenamiento por fecha (ascendente/descendente)
-Marcar tareas como completadas
-Eliminar tareas
-
-
-Conceptos integrados: useState para manejar el estado de las tareas, useEffect para operaciones secundarias como guardar en localStorage, métodos de array (map para renderizar la lista, filter para filtrar por estado, sort para ordenar por fecha).
 
 2. Formulario de registro con validación
 

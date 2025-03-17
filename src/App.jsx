@@ -1,5 +1,6 @@
 import './App.css'
 import ToDoList from './components/PruebaTecnica/ToDoList'
+import ToDoList2 from './components/PruebaTecnica/ToDoList2'
 
 function App() {
  
@@ -9,6 +10,8 @@ function App() {
     
 
     <ToDoList />
+
+    <ToDoList2 />
 
 
     </>
